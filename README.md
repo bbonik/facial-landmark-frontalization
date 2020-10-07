@@ -21,7 +21,7 @@ The function should work directly "out of the box". Frontalization weighs have b
 │   ├── utils.py                                [Collection of helpful functions, including the frontalization function]
 │   ├── example_frontalize_dlib_singleimage.py  [Example of applying frontalization on faces from a single image]
 │   └── example_frontalize_dlib_camera.py       [Example of applying real-time frontalization on faces from a camera]
-└── data                                        [Directory: Sample test images]
+└── data                                        [Directory: data, models and sample test images]
     ├── landmark_dataset.csv                    [Dataset of anonymized landmarks with many subjects, headposes and expressions]
     ├── frontalization_weights.npy              [Pre-learnt weights used for the frontalization function]
     ├── landmarks_mean_face.npy                 [Pre-learnt mean face used for the frontalization function] 
