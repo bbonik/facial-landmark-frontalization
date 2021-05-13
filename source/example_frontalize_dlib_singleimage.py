@@ -52,8 +52,9 @@ for i, face in enumerate(faces):
         
         plt.suptitle('Face ' + str(i+1))
         plt.tight_layout()
-        plt.show()
         axes = fig.get_axes()
         
         plot_landmarks(landmarks, axis=axes[1])
         plot_landmarks(landmarks_frontal, axis=axes[2])
+
+        plt.show()
