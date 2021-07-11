@@ -157,8 +157,7 @@ def get_procrustes(
     # scale
     if scale is True:
         landmark_scale = math.sqrt(
-            np.sum(np.sum(landmarks_standard, axis=1)**2) / 
-            len(landmarks_standard)
+            np.mean(np.sum(landmarks_standard**2, axis=1))
             )
         landmarks_standard = landmarks_standard / landmark_scale
     
