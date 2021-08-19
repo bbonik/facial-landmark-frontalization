@@ -5,8 +5,6 @@ An **object-oriented** version of this function, can be found in this [Facial Ex
 
 ![demo](data/demo.gif "demo")
 
-
-
 # Usage
 The function should work directly "out of the box". Frontalization weighs have been learnt and are provided. However, there is also training code in order to retrain with your own data, if needed. 
 1. Detect faces and landmarks using DLIB.
